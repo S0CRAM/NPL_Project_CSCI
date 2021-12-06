@@ -10,13 +10,14 @@ public class Sentence {
         this.text = text;
         this.author = author;
         this.list = new ArrayList<>();
+        // Uncomment method below for bigrams
         //this.list.addAll(bigrams(this.splitSentence()));
+
         this.list.addAll(trigrams(this.splitSentence()));
-//        this.timestamp = timestamp;
+
         // Taken from partner's file (he big brain)
         String[] splitTimestamp = timestamp.split(" ");
         this.timestamp = splitTimestamp[1] + " " + splitTimestamp[2] + " " + splitTimestamp[5];
-
     }
 
     // Taken from partner's file (He knows more than me)
