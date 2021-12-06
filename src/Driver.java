@@ -1,19 +1,14 @@
 // Imports
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Scanner;
-
-import java.util.Map; //place with imports
-import java.util.Collections; //place with imports
+import java.util.*;
 
 // Program
 public class Driver {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner twt = new Scanner(new File("./twitter.csv")); // the ./ allows us to move up a folder
         twt.useDelimiter("\n");
-        ArrayList<String> temp = new ArrayList<>();
+        ArrayList<String[]> temp = new ArrayList<>();
         while (twt.hasNext()) {
             Sentence tweet = Sentence.convertString(twt.next());
             temp.addAll(tweet.getList());
@@ -21,12 +16,12 @@ public class Driver {
         twt.close();
 
         HashMap<String, Integer> mappy = new HashMap<>();
-        for(String i: temp) {
+        for(String[] i: temp) {
             if(mappy.containsKey(i)) {
-                mappy.replace(i,mappy.get(i)+1);
+                mappy.replace(Arrays.toString(i),mappy.get(i)+1);
             }
             else {
-                mappy.put(i, 1);
+                mappy.put(Arrays.toString(i), 1);
             }
         }
 

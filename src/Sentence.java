@@ -4,13 +4,13 @@ public class Sentence {
     private String text;
     private String author;
     private String timestamp;
-    private ArrayList<String> list;
+    private ArrayList<String[]> list;
 
     public Sentence(String text, String author, String timestamp) {
         this.text = text;
         this.author = author;
         this.list = new ArrayList<>();
-        this.list.addAll(this.splitSentence());
+        this.list.addAll(bigrams(this.splitSentence()));
 
 //        this.timestamp = timestamp;
         // Taken from partner's file (he big brain)
@@ -69,11 +69,11 @@ public class Sentence {
         return finalList;
     }
 
-    public ArrayList<String[]> bigrams(String[] sentence) { // From stackoverflow user Dan Zheng on https://stackoverflow.com/a/40777617
+    public ArrayList<String[]> bigrams(ArrayList<String> sentence) { // From stackoverflow user Dan Zheng on https://stackoverflow.com/a/40777617
         ArrayList<String[]> twgrams = new ArrayList<>();
-        for(int i=0; i < sentence.length; i++) {
-            for(int j=i+1; j< sentence.length; j++) {
-                twgrams.add(new String[]{sentence[i],sentence[j]});
+        for(int i=0; i < sentence.size(); i++) {
+            for(int j=i+1; j< sentence.size(); j++) {
+                twgrams.add(new String[]{sentence.get(i), sentence.get(j)});
             }
         }
         return twgrams;
@@ -104,7 +104,7 @@ public class Sentence {
     }
 
     //    Get List
-    public ArrayList<String> getList() {
+    public ArrayList<String[]> getList() {
         return list;
     }
 
