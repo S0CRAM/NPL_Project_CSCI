@@ -10,8 +10,8 @@ public class Sentence {
         this.text = text;
         this.author = author;
         this.list = new ArrayList<>();
-        this.list.addAll(bigrams(this.splitSentence()));
-
+        //this.list.addAll(bigrams(this.splitSentence()));
+        this.list.addAll(trigrams(this.splitSentence()));
 //        this.timestamp = timestamp;
         // Taken from partner's file (he big brain)
         String[] splitTimestamp = timestamp.split(" ");
@@ -68,7 +68,7 @@ public class Sentence {
         }
         return finalList;
     }
-
+    // Bi-grams method
     public ArrayList<String[]> bigrams(ArrayList<String> sentence) { // From stackoverflow user Dan Zheng on https://stackoverflow.com/a/40777617
         ArrayList<String[]> twgrams = new ArrayList<>();
         for(int i=0; i < sentence.size(); i++) {
@@ -77,6 +77,19 @@ public class Sentence {
             }
         }
         return twgrams;
+    }
+
+    // Tri-grams method
+    public ArrayList<String []> trigrams(ArrayList<String> sentence) {
+        ArrayList<String[]> tregram = new ArrayList<>();
+        for(int i=0; i < sentence.size(); i++) {
+            for(int j=i+1; j< sentence.size(); j++) {
+                for(int k=j+1; k < sentence.size(); k++) {
+                    tregram.add(new String[]{sentence.get(i), sentence.get(j), sentence.get(k)});
+                }
+            }
+        }
+        return tregram;
     }
 
     //    Get Set for Text
