@@ -17,11 +17,12 @@ public class Driver {
 
         HashMap<String, Integer> mappy = new HashMap<>();
         for(String[] i: temp) {
-            if(mappy.containsKey(i)) {
-                mappy.replace(Arrays.toString(i),mappy.get(i)+1);
+            String j = Arrays.toString(i);
+            if(mappy.containsKey(j)) {
+                mappy.replace(j,mappy.get(j)+1);
             }
             else {
-                mappy.put(Arrays.toString(i), 1);
+                mappy.put(j, 1);
             }
         }
 
