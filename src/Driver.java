@@ -17,12 +17,10 @@ public class Driver {
         while (twt.hasNext()) {
             Sentence tweet = Sentence.convertString(twt.next());
             temp.addAll(tweet.getList());
-//            System.out.println(twt.next());
         }
         twt.close();
-        System.out.println(temp);
-        HashMap<String, Integer> mappy = new HashMap<>();
 
+        HashMap<String, Integer> mappy = new HashMap<>();
         for(String i: temp) {
             if(mappy.containsKey(i)) {
                 mappy.replace(i,mappy.get(i)+1);
@@ -31,7 +29,7 @@ public class Driver {
                 mappy.put(i, 1);
             }
         }
-//        System.out.println(mappy);
+
         Map.Entry<String, Integer> maxEntry = null;
         for (Map.Entry<String, Integer> entry : mappy.entrySet())
             if (maxEntry == null || entry.getValue().compareTo(maxEntry.getValue()) > 0)
