@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="Rework Done">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ejml_0_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/stanford_corenlp_3_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata.manual.2009.06.14.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NPL Project v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NPL Project v2.iml" afterDir="false" />
+    <list default="true" id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="Part 4 Start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExtractTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testDrive.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +72,9 @@
       <recent name="C:\Users\magui\OneDrive\Java Projects\CSCI 1111\NPL Project v2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
-      <module name="NPL Project v2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExtractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExtractTest" />
       <module name="NPL Project v2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,7 +83,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.ExtractTest" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +102,7 @@
       <workItem from="1638461599474" duration="10177000" />
       <workItem from="1638487253114" duration="8140000" />
       <workItem from="1638806038649" duration="5499000" />
-      <workItem from="1639014495306" duration="3339000" />
+      <workItem from="1639014495306" duration="6015000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1637255564983</created>
@@ -231,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639017725607</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Part 4 Start">
+      <created>1639017890504</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639017890504</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Part 4 Start">
+      <created>1639018211570</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639018211570</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,25 +265,25 @@
     <MESSAGE value="Bigrams" />
     <MESSAGE value="Bigrams complete" />
     <MESSAGE value="Tri-grams complete" />
-    <MESSAGE value="Part 4 Start" />
     <MESSAGE value="Reworking files to match with Professor test env" />
     <MESSAGE value="Added comments on methods + changes" />
     <MESSAGE value="Reworked some things to match with Professor/GTA Test env" />
     <MESSAGE value="Rework Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rework Done" />
+    <MESSAGE value="Part 4 Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 4 Start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExtractTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/src/Driver.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExtractTest.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/src/Driver.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -289,5 +295,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NPL_Project_v2$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1639019157500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

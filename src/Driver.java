@@ -11,20 +11,12 @@ public class Driver {
         ArrayList<String[]> temp = new ArrayList<>();
         while (twt.hasNext()) {
             Sentence tweet = Sentence.convertString(twt.next());
+            System.out.println(tweet.getText());
+            System.out.println("bonk");
             temp.addAll(tweet.getList());
         }
         twt.close();
 
-        HashMap<String, Integer> mappy = new HashMap<>();
-        for(String[] i: temp) {
-            String j = Arrays.toString(i);
-            if(mappy.containsKey(j)) {
-                mappy.replace(j,mappy.get(j)+1);
-            }
-            else {
-                mappy.put(j, 1);
-            }
-        }
 
         Map.Entry<String, Integer> maxEntry = null;
         for (Map.Entry<String, Integer> entry : mappy.entrySet())

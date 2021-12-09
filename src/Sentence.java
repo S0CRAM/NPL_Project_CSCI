@@ -19,11 +19,11 @@ public class Sentence {
     private ArrayList<String[]> list;
 
     // Method from Part 4
-    public int getSentiment(String tweet){
+    public int getSentiment(){
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize, ssplit, pos, parse, sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-        Annotation annotation = pipeline.process(tweet);
+        Annotation annotation = pipeline.process(text);
         CoreMap sentence = annotation.get(CoreAnnotations.SentencesAnnotation.class).get(0);
         Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
         return RNNCoreAnnotations.getPredictedClass(tree);
@@ -35,7 +35,6 @@ public class Sentence {
         this.list = new ArrayList<>();
         // Uncomment method below and comment trigrams for bigram method
         //this.list.addAll(bigrams(this.splitSentence()));
-
         this.list.addAll(trigrams(this.splitSentence()));
 
         // Taken from partner's file (he big brain)
