@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="Part 4 Start">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="Confusion">
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExtractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testDrive.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +98,7 @@
       <workItem from="1638461599474" duration="10177000" />
       <workItem from="1638487253114" duration="8140000" />
       <workItem from="1638806038649" duration="5499000" />
-      <workItem from="1639014495306" duration="6015000" />
+      <workItem from="1639014495306" duration="6098000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1637255564983</created>
@@ -237,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639018211570</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Confusion">
+      <created>1639020595490</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639020595490</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +273,8 @@
     <MESSAGE value="Reworked some things to match with Professor/GTA Test env" />
     <MESSAGE value="Rework Done" />
     <MESSAGE value="Part 4 Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 4 Start" />
+    <MESSAGE value="Confusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Confusion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

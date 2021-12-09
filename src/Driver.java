@@ -17,6 +17,16 @@ public class Driver {
         }
         twt.close();
 
+        HashMap<String, Integer> mappy = new HashMap<>();
+        for(String[] i: temp) {
+            String j = Arrays.toString(i);
+            if(mappy.containsKey(j)) {
+                mappy.replace(j,mappy.get(j)+1);
+            }
+            else {
+                mappy.put(j, 1);
+            }
+        }
 
         Map.Entry<String, Integer> maxEntry = null;
         for (Map.Entry<String, Integer> entry : mappy.entrySet())
