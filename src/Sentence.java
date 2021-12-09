@@ -16,6 +16,7 @@ public class Sentence {
     private String text;
     private String author;
     private String timestamp;
+    private Integer rating;
     private ArrayList<String[]> list;
 
     // Method from Part 4
@@ -33,6 +34,8 @@ public class Sentence {
         this.text = text;
         this.author = author;
         this.list = new ArrayList<>();
+        this.rating = getSentiment();
+
         // Uncomment method below and comment trigrams for bigram method
         //this.list.addAll(bigrams(this.splitSentence()));
         this.list.addAll(trigrams(this.splitSentence()));
@@ -142,6 +145,11 @@ public class Sentence {
     //    Get List
     public ArrayList<String[]> getList() {
         return list;
+    }
+
+    //    Get Rating
+    public Integer getRating() {
+        return rating;
     }
 
     //    Return details as string of tweet/data thingy

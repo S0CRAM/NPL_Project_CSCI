@@ -4,73 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="Confusion">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="abf2a420-0460-4ed9-92f9-a5e2668adc2d" name="Changes" comment="Part 4 Finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="VSC-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Sentence.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Driver.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="216FNbM7oGmT8JIhskw5EpNPxo1" />
+  <component name="ProjectId" id="2222VnyrN61GQGYzQmGWnjZIKjm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stanford-corenlp-3.9.2.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\magui\OneDrive\Java Projects\CSCI 1111\NPL Project v2" />
       <recent name="C:\Users\magui\OneDrive\Java Projects\CSCI 1111\NPL Project v2\src" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="NPL Project v2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,170 +68,29 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="236bbfea-826b-4a96-91be-09b6bdcacc2c" name="Changes" comment="" />
-      <created>1637253592690</created>
+      <changelist id="abf2a420-0460-4ed9-92f9-a5e2668adc2d" name="Changes" comment="" />
+      <created>1639021395532</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637253592690</updated>
-      <workItem from="1637253594121" duration="1812000" />
-      <workItem from="1637255447532" duration="528000" />
-      <workItem from="1637270636350" duration="593000" />
-      <workItem from="1638201716971" duration="2886000" />
-      <workItem from="1638289492223" duration="1682000" />
-      <workItem from="1638461599474" duration="10177000" />
-      <workItem from="1638487253114" duration="8140000" />
-      <workItem from="1638806038649" duration="5499000" />
-      <workItem from="1639014495306" duration="6361000" />
-      <workItem from="1639021003580" duration="41000" />
+      <updated>1639021395532</updated>
+      <workItem from="1639021401307" duration="908000" />
+      <workItem from="1639023949846" duration="3292000" />
     </task>
-    <task id="LOCAL-00001" summary="v1.0">
-      <created>1637255564983</created>
+    <task id="LOCAL-00001" summary="Part 4 Finish">
+      <created>1639062403483</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1637255564983</updated>
+      <updated>1639062403483</updated>
     </task>
-    <task id="LOCAL-00002" summary="v1.0">
-      <created>1637255587157</created>
+    <task id="LOCAL-00002" summary="Part 4 Finish">
+      <created>1639063075947</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1637255587157</updated>
+      <updated>1639063075947</updated>
     </task>
-    <task id="LOCAL-00003" summary="v1.0">
-      <created>1638465103926</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1638465103926</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Part 3: sentence splitting">
-      <created>1638543925040</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1638543925040</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Bigrams testing">
-      <created>1638806474237</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1638806474237</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Bigrams">
-      <created>1638807037786</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1638807037786</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Bigrams complete">
-      <created>1638807976865</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1638807976865</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Tri-grams complete">
-      <created>1638809217713</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1638809217713</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added comments on methods + changes">
-      <created>1638809368926</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1638809368926</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added comments on methods + changes">
-      <created>1638809442265</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1638809442265</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added comments on methods + changes">
-      <created>1639015092445</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1639015092445</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Part 4 Start">
-      <created>1639015128062</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1639015128062</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added comments on methods + changes">
-      <created>1639016722339</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1639016722339</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Reworked some things to match with Professor/GTA Test env">
-      <created>1639016750904</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1639016750904</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Reworked some things to match with Professor/GTA Test env">
-      <created>1639016799472</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1639016799472</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Reworked some things to match with Professor/GTA Test env">
-      <created>1639017058332</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1639017058332</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Rework Done">
-      <created>1639017725607</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1639017725607</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Part 4 Start">
-      <created>1639017890504</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1639017890504</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Part 4 Start">
-      <created>1639018211570</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1639018211570</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Confusion">
-      <created>1639020595490</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1639020595490</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Confusion">
-      <created>1639020657616</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1639020657616</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,54 +101,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="VSC-branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/NLP-Project" />
-      <path value="$PROJECT_DIR$/NPL-Project" />
-    </ignored-roots>
-    <MESSAGE value="v1.0" />
-    <MESSAGE value="Part 3: sentence splitting" />
-    <MESSAGE value="Bigrams testing" />
-    <MESSAGE value="Bigrams" />
-    <MESSAGE value="Bigrams complete" />
-    <MESSAGE value="Tri-grams complete" />
-    <MESSAGE value="Reworking files to match with Professor test env" />
-    <MESSAGE value="Added comments on methods + changes" />
-    <MESSAGE value="Reworked some things to match with Professor/GTA Test env" />
-    <MESSAGE value="Rework Done" />
-    <MESSAGE value="Part 4 Start" />
-    <MESSAGE value="Confusion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Confusion" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Driver.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Driver.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-        <breakpoint enabled="true" type="javascript-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Part 4 Finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 4 Finish" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NPL_Project_v2$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1639019157500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

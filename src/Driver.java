@@ -11,8 +11,8 @@ public class Driver {
         ArrayList<String[]> temp = new ArrayList<>();
         while (twt.hasNext()) {
             Sentence tweet = Sentence.convertString(twt.next());
-            System.out.println(tweet.getText());
-            System.out.println("bonk");
+            System.out.println("Tweet: " + tweet.getText() + System.lineSeparator() + "Sentiment Rating: " + tweet.getRating());
+            System.out.println("");
             temp.addAll(tweet.getList());
         }
         twt.close();
