@@ -1,16 +1,37 @@
 import java.util.ArrayList;
 
+import java.util.Properties;
+import org.ejml.simple.SimpleMatrix;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations.SentimentAnnotatedTree;
+import edu.stanford.nlp.trees.Tree;
+import edu.stanford.nlp.util.CoreMap;
+
 public class Sentence {
     private String text;
     private String author;
     private String timestamp;
     private ArrayList<String[]> list;
 
+    public int getSentiment(String tweet){
+        Properties props = new Properties();
+        props.setProperty("annotators", "tokenize, ssplit, pos, parse, sentiment");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        Annotation annotation = pipeline.process(tweet);
+        CoreMap sentence = annotation.get(CoreAnnotations.SentencesAnnotation.class).get(0);
+        Tree tree = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+        return RNNCoreAnnotations.getPredictedClass(tree);
+    }
+
     public Sentence(String text, String author, String timestamp) {
         this.text = text;
         this.author = author;
         this.list = new ArrayList<>();
-        // Uncomment method below for bigrams
+        // Uncomment method below and comment trigrams for bigram method
         //this.list.addAll(bigrams(this.splitSentence()));
 
         this.list.addAll(trigrams(this.splitSentence()));
