@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Imports from Part 4
 import java.util.Properties;
 import org.ejml.simple.SimpleMatrix;
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -16,7 +17,7 @@ public class Sentence {
     private String author;
     private String timestamp;
     private ArrayList<String[]> list;
-
+    // Method from part 4
     public int getSentiment(String tweet){
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize, ssplit, pos, parse, sentiment");
