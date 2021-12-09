@@ -6,7 +6,7 @@ import java.util.*;
 // Program
 public class Driver {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner twt = new Scanner(new File("testdata.manual.2009.06.14.csv")); // the ./ allows us to move up a folder
+        Scanner twt = new Scanner(new File("testdata.manual.2009.06.14.csv"));
         twt.useDelimiter("\n");
         ArrayList<String[]> temp = new ArrayList<>();
         while (twt.hasNext()) {
